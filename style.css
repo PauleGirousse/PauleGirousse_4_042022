@@ -10,7 +10,7 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
+  /* outline: none !important; */
 }
 
 a:hover {
@@ -90,10 +90,10 @@ a:hover {
   right: 0;
 }
 
-.texture-paper::before {
-  background: url("img/texture-paper.png");
+/* .texture-paper::before {
+  background: url("img/img webp/texture-paper.webp");
   background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
   background-attachment: fixed;
@@ -101,7 +101,7 @@ a:hover {
 
 .d-bloc {
   /* color: rgba(255, 255, 255, 0.7); */
-  color: #0f3657;
+  /* color: #0f3657; */
 }
 
 .d-bloc button:hover {
@@ -152,7 +152,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #702a35;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -197,7 +197,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel button:hover,
@@ -537,6 +537,8 @@ button {
 .img-responsive {
   height: 270px;
   width: 270px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a[data-lightbox] {
@@ -663,7 +665,10 @@ a {
   font-weight: 400;
   color: #0f3657 !important;
 }
-
+.citation {
+  background-color: #f3976c;
+  color: #0f3657;
+}
 .container {
   max-width: 1000px;
 }
@@ -687,7 +692,7 @@ a {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -695,10 +700,10 @@ p {
   margin: auto auto auto auto;
 }
 
-.h1 {
+/* .h1 {
   font-size: 20px;
   font-family: "Open Sans";
-}
+} */
 
 .cta-hero {
   margin-top: 22px;
@@ -708,7 +713,10 @@ p {
   font-size: 16px;
   font-weight: 700;
 }
-
+.partenaires {
+  font-size: 20px;
+  line-height: 2;
+}
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
