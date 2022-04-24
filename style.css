@@ -80,7 +80,7 @@ a:hover {
   background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
+/* .bloc-bg-texture::before {
   content: "";
   background-size: 2px 2px;
   position: absolute;
@@ -88,7 +88,7 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-}
+} */
 
 /* .texture-paper::before {
   background: url("img/img webp/texture-paper.webp");
@@ -99,10 +99,10 @@ a:hover {
   background-attachment: fixed;
 }
 
-.d-bloc {
-  /* color: rgba(255, 255, 255, 0.7); */
-  /* color: #0f3657; */
-}
+/* .d-bloc {
+  color: rgba(255, 255, 255, 0.7);
+  color: #0f3657;
+} */
 
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
