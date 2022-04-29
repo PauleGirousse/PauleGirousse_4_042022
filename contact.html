@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <!-- <meta name="keywords" content=""> -->
     <meta name="robots" content="index, follow" />
     <meta
       name="description"
-      content="Vous souhaitez contacter notre agence digitale sur Paris, La Panthère Création de sites internet,  ? "
+      content="Vous souhaitez contacter notre agence Web La Panthère, Création de sites internet?"
     />
     <meta
       name="viewport"
@@ -16,18 +16,24 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap-min.css" />
     <link rel="stylesheet" type="text/css" href="style-min.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome-min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    /> -->
     <!-- <link rel="stylesheet" type="text/css" href="./css/et-line-min.css.zip" /> -->
 
-    <script defer src="./js/jquery-2.1.0-min.js.zip"></script>
-    <!-- <script defer src="./js/bootstrap-min.js"></script> -->
+    <script defer src="./js/jquery-2.1.0-min.js"></script>
+    <script defer src="./js/bootstrap-min.js"></script>
     <script defer src="./js/blocs-min.js"></script>
-    <!-- <script defer src="./js/jqBootstrapValidation.js"></script> -->
-    <!-- <script defer src="./js/formHandler.js"></script> -->
+    <script defer src="./js/jqBootstrapValidation-min.js"></script>
+    <script defer src="./js/formHandler-min.js"></script>
 
     <!-- Analytics -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
+    <!-- <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-HP2ZX9TLY5"
     ></script>
@@ -39,7 +45,7 @@
       gtag("js", new Date());
 
       gtag("config", "G-HP2ZX9TLY5");
-    </script>
+    </script> -->
 
     <!-- Analytics END -->
 
@@ -53,13 +59,14 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"
-                ><img
-                  src="img/agence-la-panthere-monochrome.svg"
-                  alt="#"
-                  height="40"
-                  width="217"
-              /></a>
+              <!-- <a class="navbar-brand" href="index.html"> -->
+              <img
+                src="img/agence-la-panthere-monochrome.svg"
+                alt="#"
+                height="40"
+                width="217"
+              />
+              <!-- </a> -->
               <button
                 id="nav-toggle"
                 type="button"
@@ -140,7 +147,7 @@
                   </label>
                   <input
                     class="form-control"
-                    type="email"
+                    type="text"
                     required
                     id="input_504"
                   />
@@ -177,12 +184,14 @@
       <!-- bloc-7 END -->
 
       <!-- ScrollToTop Button -->
-      <a
-        href="#"
+      <!-- href="" -->
+      <button
         class="bloc-button btn btn-d scrollToTop"
         onclick="scrollToTarget('1')"
-        ><span class="fa fa-chevron-up"></span
-      ></a>
+        aria-label="scroll vers le haut"
+      >
+        <span class="fa fa-chevron-up"></span>
+      </button>
       <!-- ScrollToTop Button END-->
 
       <!-- Footer - bloc-8 -->
@@ -196,14 +205,20 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://twitter.com/LaPanthère"
+                    <a
+                      class="social"
+                      href="https://twitter.com/LaPanthère"
+                      aria-label="twitter"
                       ><span class="fa fa-twitter icon-md"></span>
                     </a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://facebook.com/la.panthère"
+                    <a
+                      class="social"
+                      href="https://facebook.com/la.panthère"
+                      aria-label="facebook"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
@@ -213,6 +228,7 @@
                     <a
                       class="social"
                       href="https://dribbble.com/AgenceLaPanthère"
+                      aria-label="Dribbble"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
@@ -222,6 +238,7 @@
                     <a
                       class="social"
                       href="https://instagram.com/AgenceLaPanthère"
+                      aria-label="instagram"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
