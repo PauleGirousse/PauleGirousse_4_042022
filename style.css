@@ -56,7 +56,7 @@ a:hover {
   padding: 20px 50px;
 }
 
-.bg-center,
+/* .bg-center,
 .bg-l-edge,
 .bg-r-edge,
 .bg-t-edge,
@@ -70,7 +70,7 @@ a:hover {
   -moz-background-size: auto !important;
   -o-background-size: auto !important;
   background-size: auto !important;
-}
+} */
 
 .bg-repeat {
   background: repeat;
@@ -103,7 +103,7 @@ a:hover {
   color: rgba(255, 255, 255, 0.7);
   color: #0f3657;
 } */
-
+/* 
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
 }
@@ -118,7 +118,7 @@ a:hover {
 
 .d-bloc .divider-h span {
   border-color: rgba(255, 255, 255, 0.2);
-}
+} */
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
@@ -155,7 +155,7 @@ a:hover {
   color: #702a35;
 }
 
-.d-bloc .navbar-toggle .icon-bar {
+/* .d-bloc .navbar-toggle .icon-bar {
   background: rgba(255, 255, 255, 1);
 }
 
@@ -264,7 +264,7 @@ a:hover {
 .l-bloc .btn-wire:hover {
   color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.3);
-}
+} */
 
 .voffset {
   margin-top: 30px;
@@ -346,25 +346,25 @@ a:hover {
   border: 0px;
 }
 
-.navbar-toggle:hover {
+/* .navbar-toggle:hover {
   background: transparent !important;
-}
+} */
 
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
 }
 
-.nav-invert .navbar .nav {
+/* .nav-invert .navbar .nav {
   float: left;
-}
+} */
 
-.nav-invert .navbar-header,
+/* .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
   float: right;
   position: relative;
   z-index: 2;
-}
+} */
 
 @media (min-width: 768px) {
   .site-navigation {
@@ -413,9 +413,9 @@ a:hover {
   padding: 14px 15px;
 }
 
-nav .caret {
+/* nav .caret {
   margin: 0 5px;
-}
+} */
 
 .dropdown-menu .dropdown-menu {
   top: -8px;
@@ -464,9 +464,9 @@ nav .caret {
   background: rgba(0, 0, 0, 0.3);
 }
 
-button {
+/* button {
   outline: none !important;
-}
+} */
 
 .btn-rd {
   border-radius: 40px;
