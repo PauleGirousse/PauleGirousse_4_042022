@@ -347,25 +347,25 @@ a:hover {
   border: 0px;
 }
 
-/* .navbar-toggle:hover {
+.navbar-toggle:hover {
   background: transparent !important;
-} */
+}
 
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
 }
 
-/* .nav-invert .navbar .nav {
+.nav-invert .navbar .nav {
   float: left;
-} */
+}
 
-/* .nav-invert .navbar-header,
+.nav-invert .navbar-header,
 .nav-invert .navbar-brand {
   float: right;
   position: relative;
   z-index: 2;
-} */
+}
 
 @media (min-width: 768px) {
   .site-navigation {
@@ -714,10 +714,7 @@ p {
   font-size: 16px;
   font-weight: 700;
 }
-/* .partenaires {
-  font-size: 20px;
-  line-height: 2;
-} */
+
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
@@ -842,6 +839,10 @@ h4 {
 
 .bg-presentation {
   background-image: url("img/image-de-presentationreduite.webp");
+}
+
+blockquote {
+  border-left: none;
 }
 
 @media (max-width: 1024px) {
