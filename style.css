@@ -11,13 +11,12 @@ a,
 button {
   transition: all 0.3s ease-in-out;
   /* outline: none !important; */
-
-  outline: black solid 2px;
 }
 
 a:hover {
   text-decoration: none;
   cursor: pointer;
+  outline: black solid 2px;
 }
 
 /* #page-loading-blocs-notifaction {
