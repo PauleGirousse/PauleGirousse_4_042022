@@ -10,7 +10,6 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  /* outline: none !important; */
 }
 
 a:hover {
@@ -18,15 +17,6 @@ a:hover {
   cursor: pointer;
   outline: black solid 2px;
 }
-
-/* #page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
-} */
 
 .bloc {
   width: 100%;
@@ -57,22 +47,6 @@ a:hover {
   padding: 20px 50px;
 }
 
-/* .bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-  -webkit-background-size: auto !important;
-  -moz-background-size: auto !important;
-  -o-background-size: auto !important;
-  background-size: auto !important;
-} */
-
 .bg-repeat {
   background: repeat;
 }
@@ -81,18 +55,8 @@ a:hover {
   background: top no-repeat;
 }
 
-/* .bloc-bg-texture::before {
-  content: "";
-  background-size: 2px 2px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-} */
-
 .texture-paper::before {
-  background: url("img/texture-papercompresse.webp");
+  background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -101,7 +65,6 @@ a:hover {
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, 0.7);
   color: #0f3657;
 }
 
@@ -135,7 +98,6 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  /* color: rgba(255, 255, 255, 0.6); */
   color: #0f3657;
 }
 
@@ -414,10 +376,6 @@ a:hover {
   padding: 14px 15px;
 }
 
-/* nav .caret {
-  margin: 0 5px;
-} */
-
 .dropdown-menu .dropdown-menu {
   top: -8px;
   left: 100%;
@@ -464,10 +422,6 @@ a:hover {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
 }
-
-/* button {
-  outline: none !important;
-} */
 
 .btn-rd {
   border-radius: 40px;
@@ -701,11 +655,6 @@ p {
   margin: auto auto auto auto;
 }
 
-/* .h1 {
-  font-size: 20px;
-  font-family: "Open Sans";
-} */
-
 .cta-hero {
   margin-top: 22px;
   color: #ffffff !important;
@@ -834,11 +783,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/agence-la-pantherereduite.webp");
+  background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentationreduite.webp");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 blockquote {
@@ -892,21 +841,12 @@ blockquote {
     overflow-x: hidden;
     position: relative;
   }
-  /* .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  } */
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
     width: 100%;
   }
-  /* .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  } */
 }
 
 @media (max-width: 767px) {
