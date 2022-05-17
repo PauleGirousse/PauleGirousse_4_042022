@@ -50,3 +50,4 @@ RewriteEngine On
 RewriteCond %{Server_Port} !=443
 RewriteRule ^(.*)$ https://paulegirousse.github.io/PauleGirousse_4_042022/ [R=301,L]
 
+
